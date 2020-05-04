@@ -5,7 +5,12 @@
 * License: https://bootstrapmade.com/license/
 */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
@@ -53,7 +58,7 @@ a {
 }
 
 .btn:hover {
-  background-color: #E04F00;
+  background-color: #e04f00;
   color: #fff;
 }
 
@@ -102,9 +107,11 @@ a:hover {
   font-size: 24px;
 }
 
-.scrolltop:hover, .scrolltop:active, .scrolltop:focus {
+.scrolltop:hover,
+.scrolltop:active,
+.scrolltop:focus {
   color: #fff !important;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 /*--------------------------------------------------------------
@@ -418,7 +425,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .hero:after {
-  content: '';
+  content: "";
   z-index: 0;
   position: absolute;
   background: rgba(0, 0, 0, 0.65);
@@ -442,7 +449,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 .hero-brand:hover {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .tagline {
@@ -481,7 +488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: -15px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  background-color: #E04F00;
+  background-color: #e04f00;
   position: absolute;
   border-radius: 50%;
   font-weight: 700;
@@ -523,6 +530,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Features Styling
   ================================================== */
 .features {
+  background-color: #f0f0f5;
   padding-bottom: 45px;
 }
 
@@ -533,10 +541,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 .feature-col {
   display: table;
   padding-bottom: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .feature-col > div > div {
   display: table-cell;
+  height: 150px;
+  width: 150px;
+  padding-left: 10px;
   vertical-align: middle;
 }
 
@@ -545,23 +558,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .carousel {
-  background-color: white;
-  opacity: 0.77;
-  border-width: 0 thin 0 thin;
+  opacity: 0.9;
+  border-width: 1 thin 1 thin;
   border-color: #bd1220;
 }
 .team-member-icon {
+  padding-top: 5px;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
 .team-member-image {
-  height: 120px;
-  width: 120px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   background-size: contain;
 }
 
+#devteam .card {
+  padding-right: 25px !important;
+}
 
 .feature-col h3 {
   color: #bd1220;
@@ -592,7 +608,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .cta p {
   margin-bottom: 0;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .cta .btn-ghost {
@@ -657,7 +673,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio-grid .row > div .card .portfolio-over .card-text {
   color: #fff;
-  opacity: .75;
+  opacity: 0.75;
   padding: 0 45px;
 }
 
@@ -693,7 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team .card p {
   font-size: 11px;
   color: #fff;
-  opacity: .75;
+  opacity: 0.75;
   margin: 0;
   padding: 0 35px;
 }
@@ -709,7 +725,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card .social-nav a:hover {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .team .card:hover .team-over {
@@ -751,6 +767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team .card-title-wrap .card-text {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   display: block;
+  text-align: center;
   margin: 0;
 }
 
@@ -766,7 +783,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .team-img {
   height: 350px;
+}
 
+.underlinetext:hover {
+  text-decoration: underline;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 /* ==================================================
@@ -839,12 +861,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .php-email-form input,
+#contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .php-email-form input::focus,
+#contact .php-email-form textarea::focus {
   background-color: #bd1220;
 }
 
@@ -892,7 +916,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer p {
-  opacity: .75;
+  opacity: 0.75;
   line-height: 2.0925;
 }
 
@@ -903,7 +927,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .site-footer .social-nav a {
   color: #fff;
-  opacity: .25;
+  opacity: 0.25;
 }
 
 .site-footer .social-nav a:hover {
